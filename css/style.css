@@ -747,52 +747,46 @@ color: var(--text-black-700);
     height:  50px;
     padding: 0 50px;
 }
-@media only screen and (max-width: 1280px)
-{
-    .aside
-    {
-        left: -270px ;
-    }
-    .main-content
-    {
-        padding-left: 0;
-    }
-    .about .about-content .personal-info .info-item p span
-    {
-        display: block;
-        margin-left:0;
-    }
-}
-@media only screen and (max-width: 911px)
-{
-    .contact .contact-info-item,
-    .portfolio .portfolio-item
+@media only screen and (max-width: 1280px) {
 
-    {
+    .contact .contact-info-item,
+    .portfolio .portfolio-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
-   
-    .home .home-info{
+
+    .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .home .home-img
-    {
+
+    .home .home-img {
         display: none;
     }
 }
-@media only screen and (max-width: 750px)
-{
+@media only screen and (max-width: 911px) {
+
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .personal-info .info-item,
+    .about .about-content .skills {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 750px) {
+
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
-    .about .about-content .personal-info
-    {
-        flex: 0 0 100% ;
-        max-width: 100%;
+    .about .about-content .personal-info {
+        float: none;
+        width: 100%;
     }
 }
