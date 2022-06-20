@@ -747,7 +747,7 @@ color: var(--text-black-700);
     height:  50px;
     padding: 0 50px;
 }
-@media (max-with:1199px)
+@media only screen and (max-width: 1280px)
 {
     .aside
     {
@@ -763,7 +763,7 @@ color: var(--text-black-700);
         margin-left:0;
     }
 }
-@media (max-with:991px)
+@media only screen and (max-width: 911px)
 {
     .contact .contact-info-item,
     .portfolio .portfolio-item
@@ -782,7 +782,7 @@ color: var(--text-black-700);
         display: none;
     }
 }
-@media (max-with:767px)
+@media only screen and (max-width: 750px)
 {
     .contact .contact-form .col-6,
     .contact .contact-info-item,
